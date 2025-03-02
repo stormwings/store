@@ -7,15 +7,13 @@ interface IButtonProps {
 
 export const Button: React.FC<IButtonProps> = ({ onClick, children }) => {
   return (
-    <div className="mt-6 flex justify-center" data-cy="button-container">
-      <button
-        data-cy="button"
-        className="bg-green-600 text-white py-3 px-6 rounded-md font-semibold"
-        onClick={onClick}
-      >
-        {children}
-      </button>
-    </div>
+    <button
+      onClick={onClick}
+      className="w-full max-w-sm bg-[#639605] text-white py-3 px-6 rounded-md font-semibold text-lg hover:bg-green-700"
+      data-cy="button"
+    >
+      {children}
+    </button>
   );
 };
 

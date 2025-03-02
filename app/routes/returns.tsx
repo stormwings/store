@@ -7,6 +7,6 @@ export function meta() {
 
 export default function Returns() {
   return (
-    <h2 className="text-xl font-bold">Mis tareas</h2>
+    <h2 className="text-xl font-bold text-gray-600 mt-4">Mis devoluciones</h2>
   );
 }
