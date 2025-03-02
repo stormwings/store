@@ -5,8 +5,8 @@ export function meta() {
   ];
 }
 
-import { TaskList } from "~/components/smart/tasklist/tasklist";
-
-export default function Home() {
-  return <TaskList />;
+export default function Profile() {
+  return (
+    <h2 className="text-xl font-bold">Mis tareas</h2>
+  );
 }

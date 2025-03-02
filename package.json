@@ -1,5 +1,5 @@
 {
-  "name": "iskaypet_challenge",
+  "name": "tienda-animal",
   "private": true,
   "type": "module",
   "scripts": {
@@ -14,6 +14,7 @@
     "isbot": "^5.1.17",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-modal": "^3.16.3",
     "react-router": "^7.2.0"
   },
   "devDependencies": {
@@ -22,6 +23,7 @@
     "@types/node": "^20",
     "@types/react": "^19.0.1",
     "@types/react-dom": "^19.0.1",
+    "@types/react-modal": "^3.16.3",
     "react-router-devtools": "^1.1.0",
     "tailwindcss": "^4.0.0",
     "typescript": "^5.7.2",
