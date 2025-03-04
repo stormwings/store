@@ -5,7 +5,7 @@ export function meta() {
   ];
 }
 
-import { TaskList } from "~/components/smart/tasklist/tasklist";
+import { TaskList } from "./../components/smart/tasklist/tasklist";
 
 export default function Home() {
   return <TaskList />;

@@ -1,4 +1,4 @@
-import { useProfileForm } from "~/hooks/userProfileForm";
+import { useProfileForm } from "./../hooks/userProfileForm";
 
 export function meta() {
   return [
