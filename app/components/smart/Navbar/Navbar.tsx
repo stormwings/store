@@ -1,7 +1,7 @@
 import React from "react";
 import { NavbarTabs } from "./navbarTabs";
 
-export const Navbar: React.FC = () => {
+const Navbar: React.FC = () => {
   return (
     <header className="bg-white shadow-sm w-full">
       <div className="container mx-auto flex items-center justify-between px-4 py-3">
