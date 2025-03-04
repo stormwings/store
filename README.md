@@ -1,18 +1,33 @@
 # Welcome!
 
-A modern, production-ready template for building full-stack React applications using React Router.
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
-
 ## Features
+- **TypeScript by Default** for maintainable, robust code  
+- **Tailwind CSS** for quick UI styling  
+- **React Router** for routing, data loading, and mutations
+- **Node** 20.17.0
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+## Styling
+
+This project uses **Tailwind CSS** for styling, allowing you to leverage utility classes directly in your React components. You can adjust it or replace it with another approach as desired.
+
+## Contributing
+
+1. Fork or create a branch from the main repository.
+2. Commit your changes with concise messages.
+3. Push your branch to your remote repository.
+4. Submit a Pull Request to merge your branch into the primary repository.
+
+## License
+
+This project is open source and distributed under the MIT License.
+
+## Resources
+
+- [React Router Docs](https://reactrouter.com/)
+- [Tailwind CSS Docs](https://tailwindcss.com/docs)
+- [TypeScript Docs](https://www.typescriptlang.org/)
+
+---
 
 ## Getting Started
 
@@ -21,7 +36,7 @@ A modern, production-ready template for building full-stack React applications u
 Install the dependencies:
 
 ```bash
-npm install
+yarn install
 ```
 
 ### Development
@@ -29,7 +44,7 @@ npm install
 Start the development server with HMR:
 
 ```bash
-npm run dev
+yarn dev
 ```
 
 Your application will be available at `http://localhost:5173`.
@@ -39,62 +54,5 @@ Your application will be available at `http://localhost:5173`.
 Create a production build:
 
 ```bash
-npm run build
+yarn build
 ```
-
-## Deployment
-
-### Docker Deployment
-
-This template includes three Dockerfiles optimized for different package managers:
-
-- `Dockerfile` - for npm
-- `Dockerfile.pnpm` - for pnpm
-- `Dockerfile.bun` - for bun
-
-To build and run using Docker:
-
-```bash
-# For npm
-docker build -t my-app .
-
-# For pnpm
-docker build -f Dockerfile.pnpm -t my-app .
-
-# For bun
-docker build -f Dockerfile.bun -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
