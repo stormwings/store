@@ -1,6 +1,6 @@
 import React from "react";
 import { Outlet } from "react-router";
-import NavbarTabs from "../navbar/navbarTabs";
+import NavbarTabs from "./../navbar/navbarTabs";
 
 export const LayoutDefault: React.FC = () => {
   return (
