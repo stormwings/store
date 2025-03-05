@@ -1,5 +1,3 @@
-import $ from "jquery";
-
 $(document).ready(function () {
   $(".card__button").on("click", function () {
     if ($(this).css("background-color") === "rgb(122, 184, 0)") {

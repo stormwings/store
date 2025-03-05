@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
 
-// Variables
-$primary-color: #7AB800;
-$secondary-color: #CC292B;
+$primary-color: #7ab800;
+$secondary-color: #cc292b;
 $text-color: #333;
 $font-family: "Nunito", sans-serif;
 $border-radius: 10px;
@@ -10,14 +9,11 @@ $breakpoint: 768px;
 
 body {
   font-family: $font-family;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
   background: #f8f8f8;
+  margin: 0;
+  padding: 20px;
 }
 
-// Mini Card Styles
 .card {
   background: #fff;
   border-radius: $border-radius;
